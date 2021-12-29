@@ -1,0 +1,108 @@
+==21593== 24 bytes in 1 blocks are indirectly lost in loss record 1 of 13
+==21593==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==21593==    by 0x10A8EC: queue_new (queue.c:31)
+==21593==    by 0x10B637: game_new_empty_ext (game.c:263)
+==21593==    by 0x10B6FF: game_new_ext (game.c:292)
+==21593==    by 0x10A40C: game_default (game_aux.c:21)
+==21593==    by 0x10E1F8: test_game_save (game_test_elhadiallo.c:388)
+==21593==    by 0x10E5F8: main (game_test_elhadiallo.c:463)
+==21593== 
+==21593== 24 bytes in 1 blocks are indirectly lost in loss record 2 of 13
+==21593==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==21593==    by 0x10A8EC: queue_new (queue.c:31)
+==21593==    by 0x10B649: game_new_empty_ext (game.c:264)
+==21593==    by 0x10B6FF: game_new_ext (game.c:292)
+==21593==    by 0x10A40C: game_default (game_aux.c:21)
+==21593==    by 0x10E1F8: test_game_save (game_test_elhadiallo.c:388)
+==21593==    by 0x10E5F8: main (game_test_elhadiallo.c:463)
+==21593== 
+==21593== 24 bytes in 1 blocks are indirectly lost in loss record 3 of 13
+==21593==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==21593==    by 0x10A8EC: queue_new (queue.c:31)
+==21593==    by 0x10B637: game_new_empty_ext (game.c:263)
+==21593==    by 0x10B6FF: game_new_ext (game.c:292)
+==21593==    by 0x10A40C: game_default (game_aux.c:21)
+==21593==    by 0x10E23A: test_game_save (game_test_elhadiallo.c:391)
+==21593==    by 0x10E5F8: main (game_test_elhadiallo.c:463)
+==21593== 
+==21593== 24 bytes in 1 blocks are indirectly lost in loss record 4 of 13
+==21593==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==21593==    by 0x10A8EC: queue_new (queue.c:31)
+==21593==    by 0x10B649: game_new_empty_ext (game.c:264)
+==21593==    by 0x10B6FF: game_new_ext (game.c:292)
+==21593==    by 0x10A40C: game_default (game_aux.c:21)
+==21593==    by 0x10E23A: test_game_save (game_test_elhadiallo.c:391)
+==21593==    by 0x10E5F8: main (game_test_elhadiallo.c:463)
+==21593== 
+==21593== 32 bytes in 1 blocks are indirectly lost in loss record 5 of 13
+==21593==    at 0x483DD99: calloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==21593==    by 0x10B597: game_new_empty_ext (game.c:258)
+==21593==    by 0x10B6FF: game_new_ext (game.c:292)
+==21593==    by 0x10A40C: game_default (game_aux.c:21)
+==21593==    by 0x10E1F8: test_game_save (game_test_elhadiallo.c:388)
+==21593==    by 0x10E5F8: main (game_test_elhadiallo.c:463)
+==21593== 
+==21593== 32 bytes in 1 blocks are indirectly lost in loss record 6 of 13
+==21593==    at 0x483DD99: calloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==21593==    by 0x10B5B2: game_new_empty_ext (game.c:259)
+==21593==    by 0x10B6FF: game_new_ext (game.c:292)
+==21593==    by 0x10A40C: game_default (game_aux.c:21)
+==21593==    by 0x10E1F8: test_game_save (game_test_elhadiallo.c:388)
+==21593==    by 0x10E5F8: main (game_test_elhadiallo.c:463)
+==21593== 
+==21593== 32 bytes in 1 blocks are indirectly lost in loss record 7 of 13
+==21593==    at 0x483DD99: calloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==21593==    by 0x10B597: game_new_empty_ext (game.c:258)
+==21593==    by 0x10B6FF: game_new_ext (game.c:292)
+==21593==    by 0x10A40C: game_default (game_aux.c:21)
+==21593==    by 0x10E23A: test_game_save (game_test_elhadiallo.c:391)
+==21593==    by 0x10E5F8: main (game_test_elhadiallo.c:463)
+==21593== 
+==21593== 32 bytes in 1 blocks are indirectly lost in loss record 8 of 13
+==21593==    at 0x483DD99: calloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==21593==    by 0x10B5B2: game_new_empty_ext (game.c:259)
+==21593==    by 0x10B6FF: game_new_ext (game.c:292)
+==21593==    by 0x10A40C: game_default (game_aux.c:21)
+==21593==    by 0x10E23A: test_game_save (game_test_elhadiallo.c:391)
+==21593==    by 0x10E5F8: main (game_test_elhadiallo.c:463)
+==21593== 
+==21593== 256 bytes in 1 blocks are indirectly lost in loss record 9 of 13
+==21593==    at 0x483DD99: calloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==21593==    by 0x10B5D3: game_new_empty_ext (game.c:260)
+==21593==    by 0x10B6FF: game_new_ext (game.c:292)
+==21593==    by 0x10A40C: game_default (game_aux.c:21)
+==21593==    by 0x10E1F8: test_game_save (game_test_elhadiallo.c:388)
+==21593==    by 0x10E5F8: main (game_test_elhadiallo.c:463)
+==21593== 
+==21593== 256 bytes in 1 blocks are indirectly lost in loss record 10 of 13
+==21593==    at 0x483DD99: calloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==21593==    by 0x10B5D3: game_new_empty_ext (game.c:260)
+==21593==    by 0x10B6FF: game_new_ext (game.c:292)
+==21593==    by 0x10A40C: game_default (game_aux.c:21)
+==21593==    by 0x10E23A: test_game_save (game_test_elhadiallo.c:391)
+==21593==    by 0x10E5F8: main (game_test_elhadiallo.c:463)
+==21593== 
+==21593== 424 (56 direct, 368 indirect) bytes in 1 blocks are definitely lost in loss record 11 of 13
+==21593==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==21593==    by 0x10B552: game_new_empty_ext (game.c:254)
+==21593==    by 0x10B6FF: game_new_ext (game.c:292)
+==21593==    by 0x10A40C: game_default (game_aux.c:21)
+==21593==    by 0x10E1F8: test_game_save (game_test_elhadiallo.c:388)
+==21593==    by 0x10E5F8: main (game_test_elhadiallo.c:463)
+==21593== 
+==21593== 424 (56 direct, 368 indirect) bytes in 1 blocks are definitely lost in loss record 12 of 13
+==21593==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==21593==    by 0x10B552: game_new_empty_ext (game.c:254)
+==21593==    by 0x10B6FF: game_new_ext (game.c:292)
+==21593==    by 0x10A40C: game_default (game_aux.c:21)
+==21593==    by 0x10E23A: test_game_save (game_test_elhadiallo.c:391)
+==21593==    by 0x10E5F8: main (game_test_elhadiallo.c:463)
+==21593== 
+==21593== 472 bytes in 1 blocks are still reachable in loss record 13 of 13
+==21593==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==21593==    by 0x48E8AAD: __fopen_internal (iofopen.c:65)
+==21593==    by 0x48E8AAD: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+==21593==    by 0x10EC08: game_save (game_tools.c:86)
+==21593==    by 0x10E235: test_game_save (game_test_elhadiallo.c:390)
+==21593==    by 0x10E5F8: main (game_test_elhadiallo.c:463)
+==21593== 

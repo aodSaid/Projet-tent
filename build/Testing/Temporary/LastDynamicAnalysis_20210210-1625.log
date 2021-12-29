@@ -1,0 +1,640 @@
+Start testing: Feb 10 17:37 CET
+----------------------------------------------------------
+1/36 Testing: test_fazema_dummy
+1/36 Test: test_fazema_dummy
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.1.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_fazema" "dummy"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_fazema_dummy" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+le test dummy est vrai 
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Passed.
+"test_fazema_dummy" end time: Feb 10 17:37 CET
+"test_fazema_dummy" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/36 Testing: test_jbanijarid_dummy
+2/36 Test: test_jbanijarid_dummy
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.2.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_jbanijarid" "dummy"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_jbanijarid_dummy" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+test dummy: success
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Passed.
+"test_jbanijarid_dummy" end time: Feb 10 17:37 CET
+"test_jbanijarid_dummy" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/36 Testing: test_engbamekoyap_game_play_move
+3/36 Test: test_engbamekoyap_game_play_move
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.3.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_engbamekoyap" "game_play_move"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_engbamekoyap_game_play_move" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+Test "game_play_move" finished: SUCCESS
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Passed.
+"test_engbamekoyap_game_play_move" end time: Feb 10 17:37 CET
+"test_engbamekoyap_game_play_move" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/36 Testing: test_elhadiallo_game_set_square
+4/36 Test: test_elhadiallo_game_set_square
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.4.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_elhadiallo" "game_set_square"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_elhadiallo_game_set_square" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+Test "game_set_square" finished: SUCCESS
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Passed.
+"test_elhadiallo_game_set_square" end time: Feb 10 17:37 CET
+"test_elhadiallo_game_set_square" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/36 Testing: test_elhadiallo_game_get_square
+5/36 Test: test_elhadiallo_game_get_square
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.5.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_elhadiallo" "game_get_square"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_elhadiallo_game_get_square" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+Test "game_get_square" finished: SUCCESS
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Passed.
+"test_elhadiallo_game_get_square" end time: Feb 10 17:37 CET
+"test_elhadiallo_game_get_square" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/36 Testing: test_elhadiallo_game_set_expected_nb_tents_row
+6/36 Test: test_elhadiallo_game_set_expected_nb_tents_row
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.6.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_elhadiallo" "game_set_expected_nb_tents_row"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_elhadiallo_game_set_expected_nb_tents_row" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+Test "game_set_expected_nb_tents_row" finished: SUCCESS
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Passed.
+"test_elhadiallo_game_set_expected_nb_tents_row" end time: Feb 10 17:37 CET
+"test_elhadiallo_game_set_expected_nb_tents_row" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/36 Testing: test_elhadiallo_game_fill_grass_col
+7/36 Test: test_elhadiallo_game_fill_grass_col
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.7.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_elhadiallo" "game_fill_grass_col"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_elhadiallo_game_fill_grass_col" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+Test "game_fill_grass_col" finished: SUCCESS
+
+<end of output>
+Test time =   0.49 sec
+----------------------------------------------------------
+Test Passed.
+"test_elhadiallo_game_fill_grass_col" end time: Feb 10 17:37 CET
+"test_elhadiallo_game_fill_grass_col" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/36 Testing: test_elhadiallo_game_fill_grass_row
+8/36 Test: test_elhadiallo_game_fill_grass_row
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.8.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_elhadiallo" "game_fill_grass_row"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_elhadiallo_game_fill_grass_row" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+Test "game_fill_grass_row" finished: SUCCESS
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Passed.
+"test_elhadiallo_game_fill_grass_row" end time: Feb 10 17:37 CET
+"test_elhadiallo_game_fill_grass_row" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/36 Testing: test_elhadiallo_game_default
+9/36 Test: test_elhadiallo_game_default
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.9.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_elhadiallo" "game_default"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_elhadiallo_game_default" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+Test "game_default" finished: SUCCESS
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Passed.
+"test_elhadiallo_game_default" end time: Feb 10 17:37 CET
+"test_elhadiallo_game_default" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/36 Testing: test_elhadiallo_game_default_solution
+10/36 Test: test_elhadiallo_game_default_solution
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.10.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_elhadiallo" "game_default_solution"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_elhadiallo_game_default_solution" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+Test "game_default_solution" finished: SUCCESS
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Passed.
+"test_elhadiallo_game_default_solution" end time: Feb 10 17:37 CET
+"test_elhadiallo_game_default_solution" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/36 Testing: test_elhadiallo_game_check_move
+11/36 Test: test_elhadiallo_game_check_move
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.11.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_elhadiallo" "game_check_move"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_elhadiallo_game_check_move" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+Test "game_check_move" finished: SUCCESS
+
+<end of output>
+Test time =   0.49 sec
+----------------------------------------------------------
+Test Passed.
+"test_elhadiallo_game_check_move" end time: Feb 10 17:37 CET
+"test_elhadiallo_game_check_move" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/36 Testing: test_elhadiallo_game_new
+12/36 Test: test_elhadiallo_game_new
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.12.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_elhadiallo" "game_new"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_elhadiallo_game_new" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+Test "game_new" finished: SUCCESS
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Passed.
+"test_elhadiallo_game_new" end time: Feb 10 17:37 CET
+"test_elhadiallo_game_new" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/36 Testing: test_elhadiallo_game_save
+13/36 Test: test_elhadiallo_game_save
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.13.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_elhadiallo" "game_save"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_elhadiallo_game_save" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+Test "game_save" finished: SUCCESS
+
+<end of output>
+Test time =   0.49 sec
+----------------------------------------------------------
+Test Passed.
+"test_elhadiallo_game_save" end time: Feb 10 17:37 CET
+"test_elhadiallo_game_save" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/36 Testing: test_jbanijarid_game_set_expected_nb_tents_col
+14/36 Test: test_jbanijarid_game_set_expected_nb_tents_col
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.14.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_jbanijarid" "game_set_expected_nb_tents_col"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_jbanijarid_game_set_expected_nb_tents_col" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+Test "game_set_expected_nb_tents_col" finished: SUCCESS
+
+test game_set_expected_nb_tents_col: failure
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Passed.
+"test_jbanijarid_game_set_expected_nb_tents_col" end time: Feb 10 17:37 CET
+"test_jbanijarid_game_set_expected_nb_tents_col" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/36 Testing: test_jbanijarid_game_get_current_nb_tents_col
+15/36 Test: test_jbanijarid_game_get_current_nb_tents_col
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.15.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_jbanijarid" "game_get_current_nb_tents_col"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_jbanijarid_game_get_current_nb_tents_col" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+Test "game_get_current_nb_tents_col" finished: SUCCESS
+
+test game_get_current_nb_tents_col: failure
+<end of output>
+Test time =   0.49 sec
+----------------------------------------------------------
+Test Passed.
+"test_jbanijarid_game_get_current_nb_tents_col" end time: Feb 10 17:37 CET
+"test_jbanijarid_game_get_current_nb_tents_col" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/36 Testing: test_jbanijarid_game_get_current_nb_tents_row
+16/36 Test: test_jbanijarid_game_get_current_nb_tents_row
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.16.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_jbanijarid" "game_get_current_nb_tents_row"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_jbanijarid_game_get_current_nb_tents_row" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+Test "game_get_current_nb_tents_row" finished: SUCCESS
+
+test game_get_current_nb_tents_row: failure
+<end of output>
+Test time =   0.49 sec
+----------------------------------------------------------
+Test Passed.
+"test_jbanijarid_game_get_current_nb_tents_row" end time: Feb 10 17:37 CET
+"test_jbanijarid_game_get_current_nb_tents_row" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/36 Testing: test_jbanijarid_game_get_expected_nb_tents_row
+17/36 Test: test_jbanijarid_game_get_expected_nb_tents_row
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.17.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_jbanijarid" "game_get_expected_nb_tents_row"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_jbanijarid_game_get_expected_nb_tents_row" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+Test "game_get_expected_nb_tents_row" finished: SUCCESS
+
+test game_get_expected_nb_tents_row: failure
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Passed.
+"test_jbanijarid_game_get_expected_nb_tents_row" end time: Feb 10 17:37 CET
+"test_jbanijarid_game_get_expected_nb_tents_row" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/36 Testing: test_jbanijarid_game_get_expected_nb_tents_col
+18/36 Test: test_jbanijarid_game_get_expected_nb_tents_col
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.18.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_jbanijarid" "game_get_expected_nb_tents_col"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_jbanijarid_game_get_expected_nb_tents_col" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+Test "game_get_expected_nb_tents_col" finished: SUCCESS
+
+test game_get_expected_nb_tents_col: failure
+<end of output>
+Test time =   0.49 sec
+----------------------------------------------------------
+Test Passed.
+"test_jbanijarid_game_get_expected_nb_tents_col" end time: Feb 10 17:37 CET
+"test_jbanijarid_game_get_expected_nb_tents_col" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/36 Testing: test_fazema_game_delete
+19/36 Test: test_fazema_game_delete
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.19.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_fazema" "game_delete"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_fazema_game_delete" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+le test game_delete est faux 
+Test "game_delete" finished: SUCCESS
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Passed.
+"test_fazema_game_delete" end time: Feb 10 17:37 CET
+"test_fazema_game_delete" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/36 Testing: test_fazema_game_print
+20/36 Test: test_fazema_game_print
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.20.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_fazema" "game_print"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_fazema_game_print" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+le test game_print est faux 
+Test "game_print" finished: SUCCESS
+
+   01234567
+   --------
+0 |    xx  | 3
+1 |x      x| 0
+2 |    x   | 4
+3 |x    x  | 0
+4 | x      | 4
+5 |x   x x | 0
+6 |        | 1
+7 |x       | 0
+   --------
+   40121121
+<end of output>
+Test time =   0.49 sec
+----------------------------------------------------------
+Test Passed.
+"test_fazema_game_print" end time: Feb 10 17:37 CET
+"test_fazema_game_print" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/36 Testing: test_fazema_game_copy
+21/36 Test: test_fazema_game_copy
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.21.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_fazema" "game_copy"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_fazema_game_copy" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+le test game_copy est faux 
+Test "game_copy" finished: SUCCESS
+
+<end of output>
+Test time =   0.49 sec
+----------------------------------------------------------
+Test Passed.
+"test_fazema_game_copy" end time: Feb 10 17:37 CET
+"test_fazema_game_copy" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/36 Testing: test_fazema_game_equal
+22/36 Test: test_fazema_game_equal
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.22.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_fazema" "game_equal"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_fazema_game_equal" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+le test game_equal est faux 
+Test "game_equal" finished: SUCCESS
+
+<end of output>
+Test time =   0.49 sec
+----------------------------------------------------------
+Test Passed.
+"test_fazema_game_equal" end time: Feb 10 17:37 CET
+"test_fazema_game_equal" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/36 Testing: test_fazema_game_get_current_nb_tents_all
+23/36 Test: test_fazema_game_get_current_nb_tents_all
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.23.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_fazema" "game_get_current_nb_tents_all"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_fazema_game_get_current_nb_tents_all" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+le test game_get_current_nb_tents_all est faux 
+Test "game_get_current_nb_tents_all" finished: SUCCESS
+
+<end of output>
+Test time =   0.49 sec
+----------------------------------------------------------
+Test Passed.
+"test_fazema_game_get_current_nb_tents_all" end time: Feb 10 17:37 CET
+"test_fazema_game_get_current_nb_tents_all" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/36 Testing: test_fazema_game_get_expected_nb_tents_all
+24/36 Test: test_fazema_game_get_expected_nb_tents_all
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.24.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_fazema" "game_get_expected_nb_tents_all"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_fazema_game_get_expected_nb_tents_all" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+le test game_get_expected_nb_tents_all est faux 
+Test "game_get_expected_nb_tents_all" finished: SUCCESS
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Passed.
+"test_fazema_game_get_expected_nb_tents_all" end time: Feb 10 17:37 CET
+"test_fazema_game_get_expected_nb_tents_all" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/36 Testing: test_fazema_game_is_over
+25/36 Test: test_fazema_game_is_over
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.25.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_fazema" "game_is_over"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_fazema_game_is_over" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+le test game_is_over est faux 
+Test "game_is_over" finished: SUCCESS
+
+<end of output>
+Test time =   0.49 sec
+----------------------------------------------------------
+Test Passed.
+"test_fazema_game_is_over" end time: Feb 10 17:37 CET
+"test_fazema_game_is_over" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/36 Testing: test_fazema_test_game_restart
+26/36 Test: test_fazema_test_game_restart
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.26.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_fazema" "game_restart"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_fazema_test_game_restart" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+le test game_restart est faux 
+Test "game_restart" finished: SUCCESS
+
+<end of output>
+Test time =   0.49 sec
+----------------------------------------------------------
+Test Passed.
+"test_fazema_test_game_restart" end time: Feb 10 17:37 CET
+"test_fazema_test_game_restart" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/36 Testing: test_fazema_game_nb_rows
+27/36 Test: test_fazema_game_nb_rows
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.27.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_fazema" "game_nb_rows"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_fazema_game_nb_rows" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+le test game_nb_rows est faux 
+Test "game_nb_rows" finished: SUCCESS
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Passed.
+"test_fazema_game_nb_rows" end time: Feb 10 17:37 CET
+"test_fazema_game_nb_rows" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/36 Testing: test_fazema_game_nb_cols
+28/36 Test: test_fazema_game_nb_cols
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.28.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_fazema" "game_nb_cols"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_fazema_game_nb_cols" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+le test game_nb_cols est faux 
+Test "game_nb_cols" finished: SUCCESS
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Passed.
+"test_fazema_game_nb_cols" end time: Feb 10 17:37 CET
+"test_fazema_game_nb_cols" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/36 Testing: testv2_jbanijarid_game_new_ext
+29/36 Test: testv2_jbanijarid_game_new_ext
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.29.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_jbanijarid" "game_new_ext"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"testv2_jbanijarid_game_new_ext" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+Test "game_new_ext" finished: SUCCESS
+
+test game_new_ext: failure
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Passed.
+"testv2_jbanijarid_game_new_ext" end time: Feb 10 17:37 CET
+"testv2_jbanijarid_game_new_ext" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/36 Testing: test_elhadiallo_iswrapping
+30/36 Test: test_elhadiallo_iswrapping
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.30.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_elhadiallo" "iswrapping"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_elhadiallo_iswrapping" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+Test "iswrapping" finished: SUCCESS
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Passed.
+"test_elhadiallo_iswrapping" end time: Feb 10 17:37 CET
+"test_elhadiallo_iswrapping" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/36 Testing: test_elhadiallo_isdiagadj
+31/36 Test: test_elhadiallo_isdiagadj
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.31.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_elhadiallo" "test_isdiagadj"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_elhadiallo_isdiagadj" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+Test "test_isdiagadj" finished: SUCCESS
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Passed.
+"test_elhadiallo_isdiagadj" end time: Feb 10 17:37 CET
+"test_elhadiallo_isdiagadj" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/36 Testing: test_elhadiallo_game_new_empty_ext
+32/36 Test: test_elhadiallo_game_new_empty_ext
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.32.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_elhadiallo" "game_new_empty_ext"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_elhadiallo_game_new_empty_ext" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+Test "game_new_empty_ext" finished: SUCCESS
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Passed.
+"test_elhadiallo_game_new_empty_ext" end time: Feb 10 17:37 CET
+"test_elhadiallo_game_new_empty_ext" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/36 Testing: test_elhadiallo_game_undo
+33/36 Test: test_elhadiallo_game_undo
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.33.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_elhadiallo" "game_undo"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_elhadiallo_game_undo" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+Test "game_undo" finished: SUCCESS
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Passed.
+"test_elhadiallo_game_undo" end time: Feb 10 17:37 CET
+"test_elhadiallo_game_undo" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/36 Testing: test_elhadiallo_game_redo
+34/36 Test: test_elhadiallo_game_redo
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.34.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_elhadiallo" "game_redo"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_elhadiallo_game_redo" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+Test "game_redo" finished: SUCCESS
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Passed.
+"test_elhadiallo_game_redo" end time: Feb 10 17:37 CET
+"test_elhadiallo_game_redo" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/36 Testing: test_fazema_game_load
+35/36 Test: test_fazema_game_load
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.35.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_fazema" "game_load"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_fazema_game_load" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+le test game_load est faux 
+Can't open this file
+<end of output>
+Test time =   0.49 sec
+----------------------------------------------------------
+Test Failed.
+"test_fazema_game_load" end time: Feb 10 17:37 CET
+"test_fazema_game_load" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/36 Testing: test_jbanijarid_game_load
+36/36 Test: test_jbanijarid_game_load
+Command: "/usr/bin/valgrind" "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.36.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_jbanijarid" "game_load"
+Directory: /home/aodsaidou/Documents/s4/tents-a22b/build
+"test_jbanijarid_game_load" start time: Feb 10 17:37 CET
+Output:
+----------------------------------------------------------
+Can't open this filetest game_load: failure
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Failed.
+"test_jbanijarid_game_load" end time: Feb 10 17:37 CET
+"test_jbanijarid_game_load" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 10 17:37 CET

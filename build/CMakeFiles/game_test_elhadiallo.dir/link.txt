@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -std=c99 -g  -rdynamic CMakeFiles/game_test_elhadiallo.dir/game_aux.c.o CMakeFiles/game_test_elhadiallo.dir/game.c.o CMakeFiles/game_test_elhadiallo.dir/game_test_elhadiallo.c.o  -o game_test_elhadiallo  libgame.a 

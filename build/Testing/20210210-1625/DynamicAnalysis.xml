@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-cc"
+	BuildStamp="20210210-1625-Experimental"
+	Name="aodsaidou-HP-Laptop-15-da0xxx"
+	Generator="ctest-3.16.3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="aodsaidou-HP-Laptop-15-da0xxx"
+	OSRelease="5.8.0-41-generic"
+	OSVersion="#46~20.04.1-Ubuntu SMP Mon Jan 18 17:52:23 UTC 2021"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="142"
+	ProcessorCacheSize="6144"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="3867"
+	TotalPhysicalMemory="7875"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3400.03"
+	>
+	<DynamicAnalysis Checker="Valgrind">
+		<StartDateTime>Feb 10 17:37 CET</StartDateTime>
+		<StartTestTime>1612975038</StartTestTime>
+		<TestList>
+			<Test>./test_fazema_dummy</Test>
+			<Test>./test_jbanijarid_dummy</Test>
+			<Test>./test_engbamekoyap_game_play_move</Test>
+			<Test>./test_elhadiallo_game_set_square</Test>
+			<Test>./test_elhadiallo_game_get_square</Test>
+			<Test>./test_elhadiallo_game_set_expected_nb_tents_row</Test>
+			<Test>./test_elhadiallo_game_fill_grass_col</Test>
+			<Test>./test_elhadiallo_game_fill_grass_row</Test>
+			<Test>./test_elhadiallo_game_default</Test>
+			<Test>./test_elhadiallo_game_default_solution</Test>
+			<Test>./test_elhadiallo_game_check_move</Test>
+			<Test>./test_elhadiallo_game_new</Test>
+			<Test>./test_elhadiallo_game_save</Test>
+			<Test>./test_jbanijarid_game_set_expected_nb_tents_col</Test>
+			<Test>./test_jbanijarid_game_get_current_nb_tents_col</Test>
+			<Test>./test_jbanijarid_game_get_current_nb_tents_row</Test>
+			<Test>./test_jbanijarid_game_get_expected_nb_tents_row</Test>
+			<Test>./test_jbanijarid_game_get_expected_nb_tents_col</Test>
+			<Test>./test_fazema_game_delete</Test>
+			<Test>./test_fazema_game_print</Test>
+			<Test>./test_fazema_game_copy</Test>
+			<Test>./test_fazema_game_equal</Test>
+			<Test>./test_fazema_game_get_current_nb_tents_all</Test>
+			<Test>./test_fazema_game_get_expected_nb_tents_all</Test>
+			<Test>./test_fazema_game_is_over</Test>
+			<Test>./test_fazema_test_game_restart</Test>
+			<Test>./test_fazema_game_nb_rows</Test>
+			<Test>./test_fazema_game_nb_cols</Test>
+			<Test>./testv2_jbanijarid_game_new_ext</Test>
+			<Test>./test_elhadiallo_iswrapping</Test>
+			<Test>./test_elhadiallo_isdiagadj</Test>
+			<Test>./test_elhadiallo_game_new_empty_ext</Test>
+			<Test>./test_elhadiallo_game_undo</Test>
+			<Test>./test_elhadiallo_game_redo</Test>
+			<Test>./test_fazema_game_load</Test>
+			<Test>./test_jbanijarid_game_load</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>test_elhadiallo_game_save</Name>
+			<Path>.</Path>
+			<FullName>./test_elhadiallo_game_save</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.13.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_elhadiallo" "game_save"</FullCommandLine>
+			<Results>
+				<Defect type="Memory Leak">2</Defect>
+				<Defect type="Potential Memory Leak">1</Defect>
+			</Results>
+			<Log compression="gzip" encoding="base64">eJztmNGOmkAUhu99ipO9cpOuwAzgQNbNCmrTdJs0sb0mA4xKdgALaPXtO1Br3WxHWy4WSOVGHM4/w8z3nwPMaIQ0w8KjESAd/H3BcogS0MDnafCcA82Y+B9GGQsKvgee5kV5XfzmINrSLBSx6QI03BsdexIHLUDd6QQ7wxm2IaZcdAd9oVQ2eabwyFd2xPRM/Y5HyWZ3t0w2ypbyZSbGUrbLdcZ4SkMvZnGwYsHzHY3DX7GDPL19OZa/F2Np6phMXRu+bdiGeQn7Dv3qdBDYWPuzwDHx0IYljat4j8XrYu+xXQH9sk0IkYllytnsVHmqsZDk9nTVPWhCtqAbftB4VMxJ6CQ3OdVmxAaBpfCq6Jxu2UFYNTK+omFUrm85U0IkvRhlLzEVAGRa/eVkT07rGgN11xi6dcEY+tUY9Y2Bu2uMLlQMhMd/bwxL1ksTxtC7a4wuVIzmjYFRPWMY54wxmVhi8YO3MIZjWBcKgCEptP/Xk6EuZ7M1nB10gbN15Vyf87A1nLuQz92t26Q1nLuQz81zRoZZD7TVGtATfOFFTG0edPOFuzZoTb2S7kBK3/sPn54+3iv+A/xu1cV3WV+A/wn4HWCTHHHfSuwgZhslUcFkdmjL7p9jGJcqfAu+wJpK/DezQ1v2/Lphhyarw+dXdhjKXvLyIuJcIKbBivqcvYLejv08nUzJeDyxwfMW6ZolXpQULEsoF6OmVYtYCdM4K63CHh/fP31wXA8N0MA4FRNTQsBVyQH/KcI05fk5FcLGP9CXPMxq0P8iIuDmOOYNlCmdr1how/yr607n817vB0K4ydQ=</Log>
+		</Test>
+		<Test Status="failed">
+			<Name>test_fazema_game_load</Name>
+			<Path>.</Path>
+			<FullName>./test_fazema_game_load</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.35.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_fazema" "game_load"</FullCommandLine>
+			<Results/>
+			<Log compression="gzip" encoding="base64">eJzLSVUoSS0uUUhPzE2Nz8lPTFEA8dISSysUuJwT89RLFPILUvMUSjIyixXSMnNSuQCyYRD2====</Log>
+		</Test>
+		<Test Status="failed">
+			<Name>test_jbanijarid_game_load</Name>
+			<Path>.</Path>
+			<FullName>./test_jbanijarid_game_load</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/home/aodsaidou/Documents/s4/tents-a22b/build/Testing/Temporary/MemoryChecker.36.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/aodsaidou/Documents/s4/tents-a22b/build/game_test_jbanijarid" "game_load"</FullCommandLine>
+			<Results/>
+			<Log compression="gzip" encoding="base64">eJxzTsxTL1HIL0jNUyjJyCxWSMvMSS1JLS5RSE/MTY3PyU9MsVJIS8zMKS1K5QIAY+4P3Q==</Log>
+		</Test>
+		<DefectList>
+			<Defect Type="Memory Leak"/>
+			<Defect Type="Potential Memory Leak"/>
+		</DefectList>
+		<EndDateTime>Feb 10 17:37 CET</EndDateTime>
+		<EndTestTime>1612975056</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</DynamicAnalysis>
+</Site>
